@@ -11,8 +11,11 @@ This is a REST API project I did to learn about REST API's.
 ---
 
 ![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/show_order_screenshot.png?raw=true)
-###### Screenshot of the "restaurant_rest_api_website" show order section
+###### Screenshot of the "restaurant_rest_api_website" show order section of a specific order
 ---
+
+![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/edit_order_screenshot.png?raw=true)
+###### Screenshot of the "restaurant_rest_api_website" edit order section
 
 ## Author
 
