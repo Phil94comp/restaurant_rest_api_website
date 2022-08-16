@@ -3,6 +3,8 @@
 This is a REST API project I did to learn about REST API's.
 
 ![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/index_screenshot.png?raw=true)
+###### Screenshot of the "restaurant_rest_api_website" all orders section
+---
 
 ## Author
 
