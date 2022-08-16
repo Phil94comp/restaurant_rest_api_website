@@ -10,6 +10,10 @@ This is a REST API project I did to learn about REST API's.
 ###### Screenshot of the "restaurant_rest_api_website" new order section
 ---
 
+![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/show_order_screenshot.png?raw=true)
+###### Screenshot of the "restaurant_rest_api_website" show order section
+---
+
 ## Author
 
 - [@Phil94comp](https://www.github.com/Phil94comp)
