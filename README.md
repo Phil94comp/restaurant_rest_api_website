@@ -1,6 +1,13 @@
 # restaurant_rest_api_website
 
-This is a REST API project I did to learn about REST API's.
+I created this restaurant order app to learn how to write a REST API. Currently, the app is designed to be used by waitstaff and chefs. However, this project needs additional functionality to include customer usage. 
+The purpose of this project is to learn how to do full stack development using MongoDB, Node.js using npm, Express, and EJS. <br><br>
+Functionality I want to add:
+
+  - billing system
+  - clickable images of the menu item with the ability to customize orders 
+  - user name and password 
+  - cart for the items ordered
 
 ![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/index_screenshot.png?raw=true)
 ###### Screenshot of the "restaurant_rest_api_website" all orders section
