@@ -1,7 +1,7 @@
 # restaurant_rest_api_website
 
 I created this restaurant order app to learn how to write a REST API. Currently, the app is designed to be used by waitstaff and chefs. However, this project needs additional functionality to include customer usage. 
-The purpose of this project is to learn how to do full stack development using MongoDB, Node.js using npm, Express, and EJS. <br><br>
+The purpose of this project is to learn how to do full stack development using MongoDB, Node.js using npm, Express, and EJS. <br><br>Recently, I used Docker to help package all of the dependencies needed to help run the application outside of my local machine.<br><br>
 Functionality I want to add:
 
   - billing system
@@ -35,6 +35,7 @@ Functionality I want to add:
 * HTML5
 * EJS
 * MongoDB
+* Docker
 
 ## Features
 
