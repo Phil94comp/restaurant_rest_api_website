@@ -28,14 +28,14 @@ router.post('/', async (req, res, next) => {
     next();
 }, saveOrderAndRedirect('new'));
 
-//Update the order
+//Updates the order
 router.put('/:id', async (req, res, next) => {
     req.order = await Order.findById(req.params.id);
     next();
 }, saveOrderAndRedirect('edit'));
 
 
-//Delete an order
+//Deletes an order
 router.delete('/:id', async (req,res) => {
     await Order.findByIdAndDelete(req.params.id);
     res.redirect('/');

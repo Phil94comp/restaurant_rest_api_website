@@ -14,16 +14,21 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+
         #headings {
             color: #fff;
         }
+        
+        h1, h2 {
+            text-align: center;
+        }
     </style>
-    <title>Rest Restaurant</title>
+    <title>Snow's Diner</title>
 </head>
 <body class="background-image">
     <div class="container">
-        <h1 class="mb-4" id="headings">Welcome to Rest</h1>
-        <h2 class="mb-4" id="headings">Food Order</h2>
+        <h1 class="mb-4" id="headings">Snow's Diner</h1>
+        <h2 class="mb-4" id="headings">Food Orders</h2>
         <a href="/orders/new" class="btn btn-success">New Order</a>
 
         <% orders.forEach(order => { %>
@@ -32,13 +37,17 @@
                     <h4 class="card-title"><%= order.firstName %> <%= order.lastName %></h4>
                     <div class="card-text mb-2"><%= order.foodOrder %></div>
                     <a href="orders/<%= order.id %>" class="btn btn-primary">View Specific Order</a>
-                    <a href="orders/edit/<%= order.id %>" class="btn btn-info">Edit Order</a>
+                    <a href="orders/edit/<%= order.id %>" class="btn btn-warning">Edit Order</a>
                     <form action="/orders/<%= order.id %>?_method=DELETE" method="POST" class="d-inline">
-                        <button type="submit" class="btn btn-danger">Delete Order</button>
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Do you want to delete the order?');">Delete Order</button>
                     </form>
                 </div>
             </div>
         <% }); %>
+        <footer>
+            <% let presentYear = new Date() %>
+            <p id="headings">&copy2023-<%= presentYear.getFullYear() %> Phillip Andrews</p>
+        </footer>
     </div>
 </body>
 </html>

@@ -14,11 +14,12 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+
         #headings {
             color: #fff;
         }
     </style>
-    <title>Rest Restaurant</title>
+    <title>Snow's Diner</title>
 </head>
 <body class="background-image">
     <div class="container">
@@ -27,6 +28,11 @@
         <form action="/orders/<%= order.id %>?_method=PUT" method="POST" id="headings">
             <%- include('_form_fields') %>
         </form>
+
+        <footer>
+            <% let presentYear = new Date() %>
+            <p id="headings">&copy2023-<%= presentYear.getFullYear() %> Phillip Andrews</p>
+        </footer>
     </div>
 </body>
 </html>
