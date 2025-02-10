@@ -9,19 +9,19 @@ Functionality I want to add:
   - user name and password 
   - cart for the items ordered
 
-![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/index_screenshot.png?raw=true)
+![](rest_app_img/Screenshot-of-homepage-of-the-REST-app.png)
 ###### Screenshot of the "restaurant_rest_api_website" all orders section
 ---
 
-![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/new_order_screenshot.png?raw=true)
+![](rest_app_img/Screenshot-of-the-new-order-page.png)
 ###### Screenshot of the "restaurant_rest_api_website" new order section
 ---
 
-![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/show_order_screenshot.png?raw=true)
+![](rest_app_img/Screenshot-of-the-specific-order-page.png)
 ###### Screenshot of the "restaurant_rest_api_website" show order section of a specific order
 ---
 
-![](https://github.com/Phil94comp/restaurant_rest_api_website/blob/main/rest_app_img/edit_order_screenshot.png?raw=true)
+![](rest_app_img/Screenshot-of-the-edit-order-page.png)
 ###### Screenshot of the "restaurant_rest_api_website" edit order section
 
 ## Author
