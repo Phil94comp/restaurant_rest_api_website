@@ -43,10 +43,11 @@ router.delete('/:id', async (req,res) => {
 
 function saveOrderAndRedirect(path) {
     return async (req, res) => {
-        let order = req.order
-            order.firstName = req.body.firstName
-            order.lastName = req.body.lastName
-            order.foodOrder = req.body.foodOrder
+        let order = req.order;
+        order.firstName = req.body.firstName;
+        order.lastName = req.body.lastName;
+        order.foodOrder = req.body.foodOrder;
+        
         try{
             const savedOrder = await order.save();
             res.redirect(`/orders/${savedOrder.id}`);
