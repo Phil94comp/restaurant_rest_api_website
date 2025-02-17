@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
-    crossorigin="anonymous">
-    <style>
-        h1, a, div, p {
-            text-align: center;
-            margin-top: 2rem;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" 
+        crossorigin="anonymous">
+        <style>
+            h1, a, div, p {
+                text-align: center;
+                margin-top: 2rem;
+            }
 
-        img {
-            margin-top: 2rem;
-        }
-    </style>
-    <title>Snow's Diner</title>
-</head>
-<body class="background-image">
-    <div class="container">
-        <h1 class="mb-1"><%= order.firstName %> <%= order.lastName %>'s Order</h1>
-        <a href="/" class="btn btn-info">All Orders</a>
-        <a href="/orders/edit/<%= order.id %>" class="btn btn-warning">Edit Order</a>
+            img {
+                margin-top: 2rem;
+            }
+        </style>
+        <title>Snow's Diner</title>
+    </head>
+    <body class="background-image">
+        <div class="container">
+            <h1 class="mb-1"><%= order.firstName %> <%= order.lastName %>'s Order</h1>
+            <a href="/" class="btn btn-info">All Orders</a>
+            <a href="/orders/edit/<%= order.id %>" class="btn btn-warning">Edit Order</a>
 
-        <div class="mb-2"><%= order.foodOrder %></div>
-        <img src="/img/pizza.png">
-        <footer>
-            <% let presentYear = new Date() %>
-            <p>&copy2023-<%= presentYear.getFullYear() %> Phillip Andrews</p>
-        </footer>
-    </div>
-</body>
+            <div class="mb-2"><%= order.foodOrder %></div>
+            <img src="/img/pizza.png">
+            <footer>
+                <% let presentYear = new Date() %>
+                <p>&copy2023-<%= presentYear.getFullYear() %> Phillip Andrews</p>
+            </footer>
+        </div>
+    </body>
 </html>
