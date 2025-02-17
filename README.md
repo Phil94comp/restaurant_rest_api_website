@@ -1,13 +1,11 @@
 # restaurant_rest_api_website
 
-I created this restaurant order app to learn how to write a REST API. Currently, the app is designed to be used by waitstaff and chefs. However, this project needs additional functionality to include customer usage. 
-The purpose of this project is to learn how to do full stack development using MongoDB, Node.js using npm, Express, and EJS. <br><br>Recently, I added Docker to the program to help package all of the dependencies needed to help run the application outside of my local machine.<br><br>
-Functionality I want to add:
+I created this restaurant order app to learn how to write a REST API. The app is designed to be used by waitstaff and chefs. 
+The purpose of this project is to learn how to do full stack development using MongoDB and Node.js with npm, Express, and EJS. <br><br>Recently, I added Docker to the program to help package all of the dependencies needed to help run the application outside of my local machine.
 
-  - billing system
-  - clickable images of the menu item with the ability to customize orders 
-  - user name and password 
-  - cart for the items ordered
+I chose to design the app to take in a typewritten response, rather than buttons, because it allows for complete customization. It also speeds up the input of the order because the waitstaff doesn't have to search for the appropriate buttons.
+
+This is a proof of concept project for a fictitious restaurant called Snow's Diner.<br><br>
 
 ![](rest_app_img/Screenshot-of-homepage-of-the-REST-app.png)
 ###### Screenshot of the "restaurant_rest_api_website" all orders section
