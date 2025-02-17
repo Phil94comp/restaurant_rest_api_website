@@ -16,7 +16,7 @@ This is a proof of concept project for a fictitious restaurant called Snow's Din
 ---
 
 ![](rest_app_img/Screenshot-of-the-specific-order-page.png)
-###### Screenshot of the "restaurant_rest_api_website" show order section of a specific order
+###### Screenshot of the "restaurant_rest_api_website" show order section for a specific order
 ---
 
 ![](rest_app_img/Screenshot-of-the-edit-order-page.png)
@@ -35,11 +35,12 @@ This is a proof of concept project for a fictitious restaurant called Snow's Din
 * MongoDB
 * Docker
 * Bootstrap 5
+* Node.js
 
 ## Features
 
 - Users can view all of the orders at once
 - Users can add a new order and have that order added to the database
 - Users can click on a specific order to view only that order
-- Users can edit a specific order if the customer changed their order
+- Users can edit a specific order if the customer changes their order
 - Users can delete an order once the order is fullfilled
