@@ -34,6 +34,7 @@ This is a proof of concept project for a fictitious restaurant called Snow's Din
 * EJS
 * MongoDB
 * Docker
+* Bootstrap 5
 
 ## Features
 
