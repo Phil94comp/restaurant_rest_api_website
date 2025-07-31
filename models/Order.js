@@ -6,7 +6,7 @@ const OrderSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    lastName: {
+    tableNumber: {
         type: String,
         required: true
     },

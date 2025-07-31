@@ -45,7 +45,7 @@ function saveOrderAndRedirect(path) {
     return async (req, res) => {
         let order = req.order;
         order.firstName = req.body.firstName;
-        order.lastName = req.body.lastName;
+        order.tableNumber = req.body.tableNumber;
         order.foodOrder = req.body.foodOrder;
         
         try{
