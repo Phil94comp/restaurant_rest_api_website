@@ -11,7 +11,7 @@ This is a proof of concept project for a fictitious restaurant called Snow's Din
 ###### Screenshot of the "restaurant_rest_api_website" all orders section
 ---
 
-![](rest_app_img/New-screenshot-of-the-new-order-page.png)
+![](rest_app_img/Screenshot-of-the-new-order-page.png)
 ###### Screenshot of the "restaurant_rest_api_website" new order section
 ---
 
