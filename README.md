@@ -7,7 +7,7 @@ I chose to design the app to take in a typewritten response, rather than buttons
 
 This is a proof of concept project for a fictitious restaurant called Snow's Diner.<br><br>
 
-![](rest_app_img/Screenshot-of-the-homepage.png)
+![](rest_app_img/New-screenshot-of-the-homepage.png)
 ###### Screenshot of the "restaurant_rest_api_website" all orders section
 ---
 
