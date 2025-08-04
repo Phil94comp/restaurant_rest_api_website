@@ -34,7 +34,8 @@
             <% orders.forEach(order => { %>
                 <div class="card mt-4">
                     <div class="card-body">
-                        <h4 class="card-title">Table Number: <%= order.tableNumber %><br><%= order.firstName %></h4>
+                        <h4 class="card-title">Table Number: <%= order.tableNumber %>
+                            <br>Seat Number: <%= order.seatNumber %></h4>
                         <div class="card-text mb-2"><%= order.foodOrder %></div>
                         <a href="orders/<%= order.id %>" class="btn btn-primary">View Specific Order</a>
                         <a href="orders/edit/<%= order.id %>" class="btn btn-warning">Edit Order</a>

@@ -44,8 +44,8 @@ router.delete('/:id', async (req,res) => {
 function saveOrderAndRedirect(path) {
     return async (req, res) => {
         let order = req.order;
-        order.firstName = req.body.firstName;
         order.tableNumber = req.body.tableNumber;
+        order.seatNumber = req.body.seatNumber;
         order.foodOrder = req.body.foodOrder;
         
         try{

@@ -1,12 +1,14 @@
 const mongoose = require('mongoose');
 
-
+//To change the fields in MongoDB go to the command line and paste the cluster string and enter password.
+//Use db.(database name).find() to look at the data. 
+//Use the updateMany command with {}, { $rename: { "oldField": "newField"}} to rename the field names for the database.
 const OrderSchema = new mongoose.Schema({
-    firstName: {
+    tableNumber: {
         type: String,
         required: true
     },
-    tableNumber: {
+    seatNumber: {
         type: String,
         required: true
     },

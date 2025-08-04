@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Route
 app.get('/', async (req, res) => {   
-    const orders = await Order.find().sort({firstName: 'desc'});
+    const orders = await Order.find();
     res.render('orders/index', {orders: orders});
 });
 
